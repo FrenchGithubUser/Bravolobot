@@ -41,5 +41,7 @@ vous pouvez programmer des lancements automatique du programme avec le plannific
 
 vous pouvez régler MEmu à 3fps dans les paramètres>display afin que votre ordi garde le plus de ressources possibles
 
+vous pouvez consulter le log pour suivre le nombre de grilles jouées par le bot
+
 enfin vous pouvez améliorer/optimiser le code pour plus de fluidité
 
