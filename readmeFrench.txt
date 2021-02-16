@@ -18,6 +18,7 @@ quelque part comme ça : C:\Program Files\Tesseract-OCR\tessdata
 
 Du côté du script c'est tout bon. Il ne vous reste plus qu'à installer un émulateur (j'utilise MEmu et je ne sais pas si le script fonctionne avec d'autres émulateurs)
 Téléchargement de MEmu : https://www.memuplay.com/
+Vérifiez que MEmu s'affiche bien en 1920x1080 pixels, sinon les screenshots ne seront pas recadrés aux bons endroits.
 
 C'est presque fini ! Une fois MEmu installé il suffit de l'ouvrir, de vous connecter avec un compte Google quelconque
 pour installer bravoloto.
