@@ -10,7 +10,7 @@ For further informations, read the `readmeFrench.txt` file.
 
 Written with @LucienToiture
 
-**How it works :**
+## **How it works :**
 
 The script takes a screenshot of the app and uses pytesseract text recognition to find out what section of the app is opened.
 It then applys functions depending on the section it is in (read the code for more details).
