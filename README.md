@@ -12,7 +12,7 @@ Written with @LucienToiture
 
 ## **How it works :**
 
-The script takes a screenshot of the app and uses pytesseract text recognition to find out what section of the app is opened.
+The script takes a screenshot of the app and uses pytesseract's text recognition engine to find out what section of the app is opened.
 It then applys functions depending on the section it is in (read the code for more details).
 
 A major simplification of the code is due to the fact that on Android (at the date I'm writing this), most ads can disappear by relaunching the app, so there is no need to find the sneaky 'close ad' button.
