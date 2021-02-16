@@ -7,3 +7,5 @@ At the date it has been written, it wasn't violating any conditions of use of th
 Originally written to work under Windows, the linux port is still a beta version.
 
 For further informations, read the `readmeFrench.txt` file.
+
+Written with @LucienToiture
