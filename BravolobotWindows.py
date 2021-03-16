@@ -58,7 +58,7 @@ def verif_app_ouverte():
 	while True:
 		screenshot()
 		try:
-			file = Image.open("screen.raw").rotate(270, expand=True).crop((110, 1045, 596, 1149))
+			file = Image.open("screen.raw").crop((110, 1045, 596, 1149))
 			txt_img = pytesseract.image_to_string(file, lang="fra")
 			if "JOUER" in txt_img:
 				print_log("Bravoloto démarré avec succès !")
@@ -95,7 +95,7 @@ def write_log():
 def check_grilles_sup():
 	global nb_grilles_a_jouer
 	screenshot()
-	scr = Image.open("screen.raw").rotate(270, expand=True) 
+	scr = Image.open("screen.raw") 
 	if int(nb_grilles_a_jouer) <= 75:
 		if int(pytesseract.image_to_string(scr.crop((92,235,200,262)))) >= 1000:
 			print_log("Il est rentable d'acheter des grilles supplémentaires, c'est parti !")
@@ -144,8 +144,8 @@ def main_loop():
 		rd_pause(1,3)
 		screenshot()
 		#associe le screenshot à une variable (rotation nécessaire ou non en fonction des configs)
-		scr = Image.open("screen.raw").rotate(270, expand=True) 
-
+		scr = Image.open("screen.raw")
+		
 		if "Obtenez" in pytesseract.image_to_string(scr.crop(coord_fin)):
 			break
 
@@ -341,7 +341,7 @@ def money_time():
 	while True:
 		time.sleep(2)
 		screenshot()
-		scr = Image.open("screen.raw").rotate(270, expand=True) 
+		scr = Image.open("screen.raw")
 		if "Continuer" in pytesseract.image_to_string(scr.crop(coord_continuer)):
 			screenshot()
 			os.rename("screen.raw",f"./money_time/gain_{day}_{number}_{month}.png")
@@ -366,7 +366,7 @@ def check_grilles_jouées():
 	launch_app()
 	time.sleep(2)
 	screenshot()
-	scr = Image.open("screen.raw").rotate(270, expand=True) 
+	scr = Image.open("screen.raw")
 	grilles_ = pytesseract.image_to_string(scr.crop((380,232,498,264)))
 	nb_grilles_a_jouer = ""
 
