@@ -46,3 +46,7 @@ vous pouvez consulter le log pour suivre le nombre de grilles jouées par le bot
 
 enfin vous pouvez améliorer/optimiser le code pour plus de fluidité
 
+Si vous gangnez un jour avec le bot, vous pouvez nous remercier en partageant une partie du jackpot :)
+
+Monero : 46NLLW7dzu5jo2eZ3SiAKgQuVL1Jw8wPMSBAYA3eh4h334HzwMNFSXQ3V3PmXYEoMFXkt24pTHcD1X57KRePN8ehQXn3Ggt
+
