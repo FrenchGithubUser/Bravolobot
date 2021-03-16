@@ -446,6 +446,7 @@ while True:
 		check_grilles_sup()
 		boucles_par_type()
 		print_log("Toutes les grilles sont jouées, MEmu se relancera au moment du prochain money time")
+		print_log("If you win with the bot, you can consider sharing a part of the jackpot :) Monero : 46NLLW7dzu5jo2eZ3SiAKgQuVL1Jw8wPMSBAYA3eh4h334HzwMNFSXQ3V3PmXYEoMFXkt24pTHcD1X57KRePN8ehQXn3Ggt")
 		os.system("taskkill /f /im MEmu.exe")
 		print_log(f"Le prochain money time est dans {time_to_next_money_time(2)}")
 		time.sleep(time_to_next_money_time(1))  #attend d'être 3min avant le money time pour ouvrir MEmu et bravoloto
