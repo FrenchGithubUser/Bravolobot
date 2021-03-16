@@ -19,7 +19,7 @@ It then applys functions depending on the section it is in (read the code for mo
 
 A major simplification of the code is due to the fact that on Android (at the date I'm writing this), most ads can disappear by relaunching the app, so there is no need to find the sneaky 'close ad' button.
 
-If you win with the bot, you can consider donating a part of the jackpot :) 
+If you win with the bot, you can consider sharing a part of the jackpot :) 
 
 
 Monero : 46NLLW7dzu5jo2eZ3SiAKgQuVL1Jw8wPMSBAYA3eh4h334HzwMNFSXQ3V3PmXYEoMFXkt24pTHcD1X57KRePN8ehQXn3Ggt
